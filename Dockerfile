@@ -17,6 +17,7 @@ WORKDIR /utilities
 COPY ./utilities .
 
 WORKDIR /ifcbdb
+COPY ./ifcbdb .
 
 EXPOSE 8000
 

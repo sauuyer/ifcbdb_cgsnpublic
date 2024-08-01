@@ -22,8 +22,8 @@ server {
         alias /static/;
     }
 
-    ssl_certificate /ssl/ssl.cer;
-    ssl_certificate_key /ssl/ssl.key;
+    ssl_certificate /ssl/cert.pem;
+    ssl_certificate_key /ssl/no-pass-key.pem;
 
     ssl_protocols TLSv1.2 TLSv1.3;
 
