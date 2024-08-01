@@ -1,0 +1,14 @@
+and her's a list of the files that ended up needing editing:
+        modified:  Dockerfile
+	modified:  docker-compose.yml
+	modified:  nginx-ssl.conf.template
+	modified:  nginx.conf.template
+	newly created files: ssl/ * files
+other commands that were helpful:
+generating the ssl docs:
+openssl genpkey -algorithm RSA -out key.pem -aes256
+openssl req -x509 -new -nodes -key key.pem -sha256 -days 365
+after configuring the docker files, but before running docker compose...
+docker build -t ifcbdb .
+docker run -p 8443:8443 ifcbdb
+ (edited) 
