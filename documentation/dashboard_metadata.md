@@ -7,14 +7,16 @@
 
 
 ### Metadata Definitions 
-- Latitude and longitude: 
+- Latitude and longitude: (different for each type)
+- Cruise field: (use as Deployment field)
+- Instrument: (instrument #)
+- Sample type: ("underway", "discrete", "moored")
   
 
 ### Proposed Tags
 - Targeted sample depths: "surface", "chlorophyll max", "moored ifcb depth"
 - Nearby site: [within 2 km of a given site center}
-- Sample type: "underway", "discrete", "moored"
-- 
+- (injected_air, wow, cruise numbers, QA tags, test)
 
 
 ### Data Organization
