@@ -28,6 +28,7 @@ Nearby site: [within 2 km of a given site center}
 - site_CP10CNSM
 - site_CP11NOSM
 - etc...
+
 Examples of tags from other org's dashboards: (injected_air, wow, cruise numbers, QA tags, test)
 Proposed idea: get tag suggestions from the fall workshop, or at least provide a venue for the science community to weight in 
 
