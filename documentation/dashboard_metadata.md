@@ -16,18 +16,22 @@
       underway samples: lat and lon coords per sample are taken from ship data coords matched by datetime stamp within 5 minutes of samples.
       moored samples: lat and lon are taken from the anchor survey coords
 
-  
 
 ### Proposed Tags
-Targeted sample depths: "surface", "chlorophyll max", "moored ifcb depth"
+Targeted sample depths: "surface", "chlorophyll max", "moored ifcb depth" and other optional depths
 - depth_surface
 - depth_chl_max
-- depth_NSIF
+- depth_7m (NSIF depth)
 - depth_bottom
+- depth_50m
+- depth_20m
 Nearby site: [within 2 km of a given site center}
 - site_CP10CNSM
 - site_CP11NOSM
 - etc...
+Quality control flags
+- qc_flow
+- qc_focus
 
 Examples of tags from other org's dashboards: (injected_air, wow, cruise numbers, QA tags, test)
 Proposed idea: get tag suggestions from the fall workshop, or at least provide a venue for the science community to weight in 
