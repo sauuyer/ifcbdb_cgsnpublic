@@ -18,6 +18,7 @@
 
 
 ### Proposed Tags
+
 Targeted sample depths: "surface", "chlorophyll max", "moored ifcb depth" and other optional depths
 - depth_surface
 - depth_chl_max
@@ -25,10 +26,12 @@ Targeted sample depths: "surface", "chlorophyll max", "moored ifcb depth" and ot
 - depth_bottom
 - depth_50m
 - depth_20m
+
 Nearby site: [within 2 km of a given site center}
 - site_CP10CNSM
 - site_CP11NOSM
 - etc...
+
 Quality control flags
 - qc_flow
 - qc_focus
